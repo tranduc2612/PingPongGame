@@ -1,6 +1,3 @@
-import Ball from "./Ball.js";
-import Paddle from "./Paddle.js";
-
 const player1 = document.getElementById("player__paddle");
 const player2 = document.getElementById("computer__paddle");
 const ball = new Ball(document.getElementById("ball"));

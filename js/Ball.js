@@ -1,6 +1,6 @@
 const INITIAL_VELOCITY = 0.05;
 const VERTICALITY_INCREMENT = 0.001;
-export default class Ball {
+class Ball {
   constructor(ballElem) {
     this.ballElem = ballElem;
     this.reset();
