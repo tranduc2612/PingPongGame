@@ -14,7 +14,7 @@
     </div>
     <div class="game__container">
 
-        <div class="game__menu">
+        <div class="game__menu-start">
             <div class="close-container disabled">
                 <div class="leftright"></div>
                 <div class="rightleft"></div>
@@ -27,14 +27,23 @@
                 <button class="button" id="button__player">Player vs Player</button>
                 <button class="button" id="button__how-to-play">How to Play</button>
                 <div class="how__to__play disabled">
-                    <p>Drag the paddle to hit the ball</p>
-                    <p>Hit slowly or quickly to control the ball speed.</p>
-                    <p>To get more spin, drag the paddle sideways after hitting the ball</p>
+                    <p>Di chuyển thanh Paddle để đẩy quả bóng</p>
+                    <p>Quả bóng sẽ tăng tốc độ theo từng lần va chạm vào thành màn hình</p>
+                    <p>Bên nào để bóng lọt ra đằng sau trước thì bên đấy thua</p>
                     <p style="font-size: 2rem;">Control</p>
-                    <p>=> If you choose play with computer , you move mouse to move paddle</p>
-                    <p>=> If you choose play with player ,P1 move with key W(Up) and S(Down), P2 move with key I(Up) and K(Down)</p>
-
+                    <p>=> Nếu bạn chọn chơi với máy, thì bạn sẽ di chuyển thanh Paddle bằng chuột</p>
+                    <p>=> Nếu bạn chọn chơi với bạn, thì người chơi 1(P1) sẽ di chuyển bằng key W(Up) và key S(Down), người chơi 2(P2) sẽ di chuyển bằng key I(Up) và key K(Down)</p>
                 </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="game__menu-end disabled">
+            <div class="game__menu-container">
+                <span class="notification">Computer Win !</span>
+                <button class="button" id="button__replay">Play Again</button>
+                <button class="button" id="button__back-menu">Back to menu</button>
             </div>
         </div>
 

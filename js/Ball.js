@@ -1,5 +1,5 @@
 const INITIAL_VELOCITY = 0.05;
-const VERTICALITY_INCREMENT = 0.001;
+const VERTICALITY_INCREMENT = 0.0001;
 class Ball {
   constructor(ballElem) {
     this.ballElem = ballElem;
@@ -31,7 +31,7 @@ class Ball {
     this.y = 50;
     this.direction = { x: 0 };
     while (
-      Math.abs(this.direction.x) <= 0.2 ||
+      Math.abs(this.direction.x) <= 0.2 || // de ball luon ban ve 2 phia cua nguoi choi
       Math.abs(this.direction.x) >= 0.9
     ) {
       const heading = randomNumberBetween(0, 2 * Math.PI);
